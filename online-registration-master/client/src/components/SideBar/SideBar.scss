@@ -1,0 +1,27 @@
+.profile-sidebar{
+    height: 100vh;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grey);
+
+    .side-nav-bar{
+        color:var(--white);
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .side-nav-bar:first-child{
+        margin-top: 200px;
+    }
+    
+    .active{
+        background-color: var(--white);
+        color: var(--grey);
+        border-right: 5px solid var(--green);
+    }
+}

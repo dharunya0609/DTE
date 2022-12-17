@@ -1,0 +1,25 @@
+
+.login-container{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);}
+
+label
+{
+    color:green;
+    font-size: 20px;
+
+}
+h2{
+    font-size: 38px;
+    color:black;
+    margin-bottom: 30px;
+}
+.forgot{
+    color: var(--grey);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.btn
+{
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,19 @@
+.signup-container{
+    .btn{
+        background-color: var(--pink);
+        color:var(--white);
+        &:hover{
+            background-color: var(--pink);
+            color: var(--white);
+            opacity: 0.8;
+        }
+    }
+    label{
+        font-size: 20px;
+        color:var(--green);   
+    }
+    h2{
+        color: var(--pink);
+    }
+
+}

@@ -1,0 +1,30 @@
+.login-container
+{
+    color:var(--pink);
+    .btn{
+        background-color: var(--pink);
+        color: var(--white);
+        &:hover {
+                background-color: var(--pink);
+                color: var(--white);
+                opacity: 0.8;
+            }
+    }
+    label{
+        color: var(--green);
+        font-size: 20px;
+    }
+    h2{
+        font-size: 38px;
+        color: var(--pink);
+        margin-bottom: 30px;
+    }
+    .forgot{
+        color: var(--blue);
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-decoration: underline;
+    }
+
+ 
+}
